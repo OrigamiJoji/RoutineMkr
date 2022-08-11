@@ -1,2 +1,2 @@
 # Movies-app
-fullstack
+fullstack test application
