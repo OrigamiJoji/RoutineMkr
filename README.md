@@ -1,5 +1,5 @@
-# Task App
-A lightweight self-improvement app </br>
+# RoutineMkr
+A self-improvement app </br>
 Login/Signup </br>
 Todo List Tracker </br>
 Daily Reminder </br>

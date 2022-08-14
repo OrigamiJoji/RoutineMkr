@@ -5,23 +5,23 @@ import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import Home from "./pages/Home";
 import NoPage from "./pages/NoPage";
+import Profile from "./pages/Profile";
 import Header from "./Components/Header/Navbar";
-import './index.css'
 
 export default function App() {
-  return (
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Header />}>
-            <Route index element={<Home />} />
-            <Route path="signup" element={<Signup />} />
-            <Route path="login" element={<Login />} />
-            <Route path="*" element={<NoPage />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Header />}>
+                    <Route index element={<Home />} />
+                    <Route path="signup" element={<Signup />} />
+                    <Route path="login" element={<Login />} />
+                    <Route path="profile" element={<Profile />} />
+                    <Route path="*" element={<NoPage />} />
+                </Route>
+            </Routes>
+        </BrowserRouter>
+    );
 }
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
-
