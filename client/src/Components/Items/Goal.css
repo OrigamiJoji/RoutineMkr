@@ -1,0 +1,32 @@
+.goal {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 5px;
+    width: 40%;
+
+}
+span {
+    padding: 4px;
+}
+
+.header {
+    font-size: 20px;
+}
+.note {
+    font-size: 12px;
+}
+
+.goal-item {
+    display: flex;
+    flex-direction: column;
+}
+.goal-button {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 20px;
+    flex-grow: 1;
+}

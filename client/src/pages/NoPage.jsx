@@ -3,7 +3,12 @@ import './style.css';
 
 function NoPage() {
     return (
-        <h1>404 Error</h1>
+        <div className="page-container">
+            <div className="page-item">
+                404 Error
+            </div>
+            <img src={require('../assets/closed.png')} />
+        </div>
     );
 }
 
