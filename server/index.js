@@ -15,6 +15,8 @@ app.listen(PORT);
 
 app.use(express.static('../client/build'));
 
-app.get('/', (req, res) => {
-    res.sendFile('../client/build');
+app.get('/api', (req, res) => {
+    res.status(200).send({
+        joe: 'close enough time'
+    });
 });
